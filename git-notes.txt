@@ -1,0 +1,13 @@
+-- git status       # Shows the current status of the Git repository (tracked, untracked, staged files)
+-- git branch       # Lists all branches in the repository and highlights the current one
+-- ls -l            # Lists files in the current directory in long format (permissions, size, date, etc.)
+-- git init         # Initializes a new Git repository in the current directory
+-- ls -a            # Lists all files, including hidden ones (starting with .)
+-- clear            # Clears the terminal screen
+-- git add <file>   # Stages specified file(s) for the next commit
+-- git rm --cached <file>   # Removes a file from the staging area but keeps it in the working directory
+-- git add *        # Stages all files in the current directory for commit
+-- git commit -m "<message>" # Creates a commit with staged changes and attaches a message
+-- rm <file>        # Deletes a file from the working directory
+-- git restore <file> # Restores a file from the last commit or staging area
+-- history          # Shows the command history of the terminal session
