@@ -11,3 +11,23 @@
 -- rm <file>        # Deletes a file from the working directory
 -- git restore <file> # Restores a file from the last commit or staging area
 -- history          # Shows the command history of the terminal session
+
+| Command                            | Description                                                                     |
+| ---------------------------------- | ------------------------------------------------------------------------------- |
+| `git remote add origin <repo-url>` | Adds a remote repository named **origin** to your local Git project.            |
+| `git remote -v`                    | Displays the remote repositories and their URLs for fetch/push.                 |
+| `git remote set-url origin <url>`  | Changes the URL of the existing **origin** remote.                              |
+| `git push origin master`           | Pushes commits from the local **master** branch to the remote repository.       |
+| `git status`                       | Shows the current state of the working directory and staging area.              |
+| `git add .`                        | Stages **all modified and new files** for the next commit.                      |
+| `git add testing.py`               | Stages the specific file **testing.py** for commit.                             |
+| `git commit .`                     | Creates a commit with staged changes (not recommended usage; usually use `-m`). |
+| `git commit *`                     | Attempts to commit specified files (shell expands `*`).                         |
+| `git commit -m "message"`          | Commits staged changes with a commit message.                                   |
+| `git pull origin master --rebase`  | Pulls latest changes from remote **master** and rebases local commits on top.   |
+| `git rebase --continue`            | Continues the rebase process after resolving conflicts.                         |
+| `cd ..`                            | Moves to the parent directory.                                                  |
+| `mkdir git-demo-new`               | Creates a new directory named **git-demo-new**.                                 |
+| `ls`                               | Lists files and directories in the current folder.                              |
+| `cd git-demo-new`                  | Changes directory into **git-demo-new**.                                        |
+| `git clone <repo-url>`             | Creates a local copy of a remote Git repository.                                |
